@@ -57,7 +57,7 @@ valorInicial:valorInicial
 #Si ambos números son iguales, la secuencia será de sólo un número, en este caso 20.
 
 
-##EJERCICIO 6 : Ejecute el ejemplo anterior y comente ¿Cuál es la condición establecida en elfor, según el resultado que muestra la consola?
+##EJERCICIO 6 : Ejecute el ejemplo anterior y comente ¿Cuál es la condición establecida en elfor, según el resultado que muestra la consola?.
 
 for(i in 1 : 100){
   print(paste("cuento",i,"misisipis"))
@@ -75,7 +75,7 @@ for(i in listaDeNumeros){print(paste("elemento",i," de ListaDeNumeros"))}
 
 for (i in listaDeNumeros){
   print(i)
-if(i%%2==0) {print("par")} else {print("impar")}
+  if(i%%2==0) {print("par")} else {print("impar")}
 }
 #Al codigo realizado, se prueba con numeros positivos y negativos y arroja como resultado numeros pares o impares.
 
@@ -146,4 +146,4 @@ for( i in listaDeNumeros){
 #La ventaja de este codigo es que da un resultado automaticamente con solo poner el nombre de la lista.
 
 
-  
+
