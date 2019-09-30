@@ -30,10 +30,10 @@ if(unlist(listaDeNumeros[5])+1>0){
 
 listaDeNumeros[5] <- 12
 listaDeNumeros[5] 
-#Al realizar la accion listaDeNumeros[5] <- 12 se reemplaza la posicion 5 por un 12
+#Al realizar la accion listaDeNumeros[5] <- 12 se reemplaza la posicion 5 por un 12.
 
 
-##EJERCICIO 4: Existe una función llamada length, esta se usa de la siguiente manera:length(nombre_variable), ¿por qué debería ser cambiado nombre_variable para quefuncione con el ejemplo que estamos trabajando (listaDeNumeros)? ¿qué da comoresultado?Previo a revisar lo referente a FOR-LOOP, veremos un poco de secuencia, una secuenciaes la creación ordenada de números, que puede ser de mayor a menor como de menor a mayor.
+##EJERCICIO 4: Existe una función llamada length, esta se usa de la siguiente manera:length(nombre_variable), ¿por qué debería ser cambiado nombre_variable para que funcione con el ejemplo que estamos trabajando (listaDeNumeros)? ¿qué da comoresultado?Previo a revisar lo referente a FOR-LOOP, veremos un poco de secuencia, una secuenciaes la creación ordenada de números, que puede ser de mayor a menor como de menor a mayor.
 
 length(nombre_variable)
 length()
@@ -77,7 +77,7 @@ for (i in listaDeNumeros){
   print(i)
 if(i%%2==0) {print("par")} else {print("impar")}
 }
-#Al codigo realizado, se prueba con numero 2 y arroja como resultado numero par.
+#Al codigo realizado, se prueba con numeros positivos y negativos y arroja como resultado numeros pares o impares.
 
 
 ##EJERCICIO 9 : Suponga que existe un sistema de plebiscitos (resultado SI o NO) con las siguientes reglas: 
@@ -125,17 +125,18 @@ Division(3,4)
 AreaAnillo<-function(radio1,radio2){
   abs((pi*radio1^2)-(pi*(radio2^2)))
 }
-AreaAnillo(7,3)
-AreaAnillo(6,2)
-#Ej.1: AreaAnillo(7.3), da como resultado [1] 125.6637
-#Ej.2: AreaAnillo(6,2), da como resultado [1] 100.531
+AreaAnillo(8,5)
+AreaAnillo(7,4)
+#Ej.1: AreaAnillo(7.3), da como resultado [1] 125.5221
+#Ej.2: AreaAnillo(6,2), da como resultado [1] 103.6726
 
 #Rectangulo:
 AreaRectangulo<-function(base1,altura1,base2,altura2){
   abs((base1*altura1)-(base2*altura2))
 }
-AreaRectangulo(20,10,10,5)
-# La funcion da como resultado [1] 150
+AreaRectangulo(10,5,6,3)
+# La funcion da como resultado [1] 32
+
 
 ##EJERCICIO OPCIONAL:
 
