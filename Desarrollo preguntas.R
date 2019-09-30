@@ -127,8 +127,8 @@ AreaAnillo<-function(radio1,radio2){
 }
 AreaAnillo(8,5)
 AreaAnillo(7,4)
-#Ej.1: AreaAnillo(7.3), da como resultado [1] 125.5221
-#Ej.2: AreaAnillo(6,2), da como resultado [1] 103.6726
+#Ej.1: AreaAnillo(8.5), da como resultado [1] 125.5221
+#Ej.2: AreaAnillo(7,4), da como resultado [1] 103.6726
 
 #Rectangulo:
 AreaRectangulo<-function(base1,altura1,base2,altura2){
