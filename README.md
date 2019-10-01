@@ -27,7 +27,7 @@ Para que la funcion length funcione, debe ser cambiado "nombre_variable" por la 
 
 Al cambiar el valor inicial por el valor final, y viceversa, se invierte la secuencia de numeros entregada anteriormente por valorinicial:valorfinal.
 Al ejecutar la accion valorInicial:length(listaDeNumeros)), el programa entrega una secuencia de numeros entre el valor inicial (20) y la longitud de la "listaDeNumeros".
-Al ejecutar la accion valorInicial:valorInicial, al ser ambos números iguales, la secuencia será de sólo un número, en este caso 20.
+Al ejecutar la accion valorInicial:valorInicial, al ser ambos nÃºmeros iguales, la secuencia serÃ¡ de sÃ³lo un nÃºmero, en este caso 20.
 
 ##EJERCICIO 6 : 
 
@@ -77,8 +77,8 @@ AreaAnillo<-function(radio1,radio2){
 }
 AreaAnillo(7,3)
 AreaAnillo(6,2)
-#Ej.1: AreaAnillo(7.3), da como resultado 125.6637
-#Ej.2: AreaAnillo(6,2), da como resultado 100.531
+Ej.1: AreaAnillo(7.3), da como resultado 125.6637
+Ej.2: AreaAnillo(6,2), da como resultado 100.531
 
 Y para el rectangulo se realizo la siguiente formula:
 
@@ -87,7 +87,7 @@ AreaRectangulo<-function(base1,altura1,base2,altura2){
   abs((base1*altura1)-(base2*altura2))
 }
 AreaRectangulo(20,10,10,5)
-# La funcion da como resultado 150
+La funcion da como resultado 150
 
 ##EJERCICIO OPCIONAL:
 
